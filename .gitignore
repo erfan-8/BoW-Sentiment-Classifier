@@ -1,0 +1,30 @@
+# Python & Anaconda Environments
+/venv/
+/envs/
+/tf-gpu/
+__pycache__/
+*.pyc
+
+# IDE / System Files
+.idea/
+.vscode/
+.DS_Store
+
+# Dataset Files (!!!مهم!!!)
+# هر پوشه یا فایلی که دیتاست توشه
+dataset/
+data/
+*.csv
+*.json
+*.txt
+
+# Model & Artifacts (!!!مهم!!!)
+# فایل‌های مدلی که ذخیره می‌کنی
+*.pkl
+*.joblib
+*.model
+*.vec
+*.dat
+
+# Jupyter
+.ipynb_checkpoints
